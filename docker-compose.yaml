@@ -14,7 +14,7 @@ services:
     image: "postgres:latest"
     restart: "on-failure"
     environment:
-      - POSTGRES_PASSWORD="pass"
-      - POSTGRES_USER="user"
-      - POSTGRES_DB="db"
+      - POSTGRES_PASSWORD=pass
+      - POSTGRES_USER=user
+      - POSTGRES_DB=db
     
